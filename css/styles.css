@@ -168,8 +168,7 @@ height: 56px;
   margin-left: 156px;
 }
 .service-description-list-item {
-  flex-basis: calc((100% - 72px) /4);
-;}
+  flex-basis: calc((100% - 72px) /4);}
 
   .list-header {color: var(--dark-brand-color); 
     font-weight: 500; 
