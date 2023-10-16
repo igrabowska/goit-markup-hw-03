@@ -34,10 +34,8 @@ button {
   border-radius: 4px;
 }
 .container {width: 1158px;
-  justify-content: center;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 .section {padding-top: 120px;
 padding-bottom: 120px;}
@@ -45,8 +43,6 @@ padding-bottom: 120px;}
 .header {border-bottom: 1px solid #E7E9FC;}
 
 .page-header {display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -155,7 +151,7 @@ height: 56px;
 .baner-button:hover, 
 .baner-button:focus {background-color: var(--pressed-state-color);}
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: auto;
@@ -250,10 +246,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--light-brand-color);
-margin-bottom: 16px;}
-
-.span-logo-footer {color: var(--secondary-background);
+margin-bottom: 16px;
 display: inline-block;}
+
+.span-logo-footer {color: var(--secondary-background);}
 
 
 .footer-subcontainer {display: flex;
@@ -304,7 +300,7 @@ letter-spacing: 0.04em;
 color: var(--light-brand-color);
 background-color: var(--secondary-background);
 padding: 12px 24px;
-border: 1px solid color var(--light-accent);}
+border: 1px solid var(--light-accent);}
 
 
 .filter-button:hover, 
