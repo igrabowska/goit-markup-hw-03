@@ -172,8 +172,6 @@ height: 56px;
   margin-left: 156px;
 }
 .service-description-list-item {
-  display: flex; 
-flex-direction: column;
   flex-basis: calc((100% - 72px) /4);
 }
 
@@ -201,7 +199,6 @@ flex-direction: column;
 
  .service-img-list {display: flex;
 gap: 24px;
-
 }
 
 .img-item {flex-basis: calc((100% - 48px ) / 3);}
