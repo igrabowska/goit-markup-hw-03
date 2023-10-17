@@ -43,8 +43,6 @@ padding-bottom: 120px;}
 .header {border-bottom: 1px solid #E7E9FC;}
 
 .page-header {display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px; 
 }
 
   .logo {font-family: "Raleway", sans-serif;
@@ -241,14 +239,13 @@ color: var(--light-brand-color);
 margin-bottom: 16px;
 display: inline-block;}
 
-.logo-footer [href="./index.html"] {display: inline-block;}
 
 .span-logo-footer {color: var(--secondary-background);}
 
 
-.footer-subcontainer {display: flex;
+/*.footer-subcontainer {display: flex;
 flex-direction: column;
-}
+}*/
 
 
 
