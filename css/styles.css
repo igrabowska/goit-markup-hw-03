@@ -42,7 +42,9 @@ padding-bottom: 120px;}
 
 .header {border-bottom: 1px solid #E7E9FC;}
 
-.page-header {display: flex; 
+.page-header {display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px; 
 }
 
   .logo {font-family: "Raleway", sans-serif;
