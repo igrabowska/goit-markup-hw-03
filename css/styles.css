@@ -141,6 +141,7 @@ margin-bottom: 48px;
     color: #ffffff;
    cursor: pointer;
   font-family: "Roboto", sans-serif;
+display: block;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -150,7 +151,7 @@ padding-top: 16px;
 padding-bottom: 16px;
 height: 56px;
 margin: 0 auto;
-display: block;
+
 }
 
 .baner-button:hover, 
